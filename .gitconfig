@@ -1,3 +1,5 @@
 [user]
 	email = duncan.finney@gmial.com
 	name = Duncan Finney
+[push]
+	default = simple
