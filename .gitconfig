@@ -3,3 +3,5 @@
 	name = Duncan Finney
 [push]
 	default = simple
+[color]
+	ui = auto
