@@ -1,1 +1,1 @@
-export PATH="$PATH:/home/duncan/bin"
+export PATH="$PATH:$HOME/bin"
