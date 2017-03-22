@@ -157,6 +157,7 @@ function readdir(path) {
   cp.exec("find " + path + "", function(err, stdout, stderr) {
     if(err) {
       console.log("FATAL: Unable to build directory tree. Is command find available on your OS?");
+      console.error(err);
       return;
     }
 

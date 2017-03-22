@@ -2,6 +2,8 @@
 	email = duncan.finney@gmial.com
 	name = Duncan Finney
 [push]
-	default = simple
+	default = current
 [color]
 	ui = auto
+[alias]
+	co = checkout
