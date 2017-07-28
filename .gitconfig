@@ -1,9 +1,7 @@
-[user]
-	email = duncan.finney@gmial.com
-	name = Duncan Finney
 [push]
 	default = current
-[color]
-	ui = auto
+[user]
+	name = Duncan Finney
+	email = duncan.finney@gmail.com
 [alias]
 	co = checkout
