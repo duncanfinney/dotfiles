@@ -5,3 +5,5 @@
 	email = duncan.finney@gmail.com
 [alias]
 	co = checkout
+[core]
+	editor = /usr/bin/vim
