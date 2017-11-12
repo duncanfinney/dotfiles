@@ -120,3 +120,5 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 
 #enable vim
 bindkey -v
+export KEYTIMEOUT=1
+
