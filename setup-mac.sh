@@ -20,9 +20,13 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 sudo chsh -s $(which zsh)
 
 # get all the other cool stuff I like
+brew install \
+    htop
+
 brew cask install \
     visual-studio-code \
     google-chrome \
     iterm2 \
     webstorm \
-    slack
+    slack \
+    authy
