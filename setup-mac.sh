@@ -59,3 +59,25 @@ mkdir -p ~/.zfunc
 rustup completions zsh > ~/.zfunc/_rustup
 source ~/.zshrc
 
+# Vim
+brew tap caskroom/fonts
+brew cask install \
+  font-dejavu-sans-mono-for-powerline \
+  font-droid-sans-mono-for-powerline \
+  font-meslo-lg font-input \
+  font-inconsolata font-inconsolata-for-powerline \
+  font-liberation-mono-for-powerline \
+  font-liberation-sans \
+  font-meslo-lg \
+  font-nixie-one \
+  font-office-code-pro \
+  font-pt-mono \
+  font-raleway font-roboto \
+  font-source-code-pro font-source-code-pro-for-powerline \
+  font-source-sans-pro \
+  font-ubuntu
+
+brew install nvim
+rm -rf ~/.SpaceVim
+curl -sLf https://spacevim.org/install.sh | bash
+yadm checkout -- ~/.SpaceVim
