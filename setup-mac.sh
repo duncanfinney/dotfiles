@@ -38,7 +38,8 @@ brew cask install \
     vagrant \
     transmission \
     alfred \  
-    bartender
+    bartender \
+    spectacle
 
 # VSCode Extensions
 code --install-extension vscodevim.vim
