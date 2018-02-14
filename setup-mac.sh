@@ -35,7 +35,10 @@ brew cask install \
     authy \
     flux \
     virtualbox \
-    vagrant 
+    vagrant \
+    transmission \
+    alfred \  
+    bartender
 
 # VSCode Extensions
 code --install-extension vscodevim.vim
