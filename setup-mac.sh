@@ -1,4 +1,7 @@
 #!/bin/bash
+set -eu
+set -o pipefail
+set -x 
 
 # get homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -29,4 +32,27 @@ brew cask install \
     iterm2 \
     webstorm \
     slack \
-    authy
+    authy \
+    flux \
+    virtualbox \
+    vagrant 
+
+# VSCode Extensions
+code --install-extension vscodevim.vim
+
+# Go
+brew install golang
+
+# NodeJS
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+source ~/.zshrc
+LATEST_NODE=$(nvm ls-remote | tail -n 1 | xargs) #xargs trims whitespace...
+echo installing $LATEST_NODE
+
+# Rust
+curl https://sh.rustup.rs -sSf | sh
+source $HOME/.cargo/env
+mkdir -p ~/.zfunc
+rustup completions zsh > ~/.zfunc/_rustup
+source ~/.zshrc
+
