@@ -39,13 +39,17 @@ brew cask install \
     transmission \
     alfred \  
     bartender \
-    spectacle
+    spectacle \
+    mercurial 
 
 # VSCode Extensions
-code --install-extension vscodevim.vim
+code \
+  --install-extension vscodevim.vim \ 
+  --install-extension lukehoban.Go 
 
 # Go
 brew install golang
+mkdir -p ~/go
 
 # NodeJS
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
