@@ -24,7 +24,8 @@ sudo chsh -s $(which zsh)
 
 # get all the other cool stuff I like
 brew install \
-    htop
+    htop \
+    exa
 
 brew cask install \
     visual-studio-code \
@@ -40,7 +41,8 @@ brew cask install \
     alfred \  
     bartender \
     spectacle \
-    mercurial 
+    mercurial  \ 
+    viscosity
 
 # VSCode Extensions
 code \
