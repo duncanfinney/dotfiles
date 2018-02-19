@@ -25,7 +25,8 @@ sudo chsh -s $(which zsh)
 # get all the other cool stuff I like
 brew install \
     htop \
-    exa
+    exa \
+    jq
 
 brew cask install \
     visual-studio-code \
