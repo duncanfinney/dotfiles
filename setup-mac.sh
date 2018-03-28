@@ -26,7 +26,10 @@ sudo chsh -s $(which zsh)
 brew install \
     htop \
     exa \
-    jq
+    jq \
+    ripgrep \
+    wget \ 
+    tmux
 
 brew cask install \
     visual-studio-code \
