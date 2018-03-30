@@ -29,7 +29,8 @@ brew install \
     jq \
     ripgrep \
     wget \ 
-    tmux
+    tmux \
+    tree
 
 brew cask install \
     visual-studio-code \
