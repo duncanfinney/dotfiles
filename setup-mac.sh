@@ -52,7 +52,20 @@ brew cask install \
 # VSCode Extensions
 code \
   --install-extension vscodevim.vim \ 
-  --install-extension lukehoban.Go 
+  --install-extension lukehoban.Go \
+  --install-extension EditorConfig.EditorConfig  \
+  --install-extension PeterJausovec.vscode-docker  \
+  --install-extension coolbear.systemd-unit-file  \
+  --install-extension dragos.scala-lsp  \
+  --install-extension eamodio.gitlens  \
+  --install-extension lukehoban.Go  \
+  --install-extension mholo65.bitbake  \
+  --install-extension mquandalle.graphql  \
+  --install-extension ms-python.python  \
+  --install-extension ms-vscode.cpptools  \
+  --install-extension ms-vscode.csharp  \
+  --install-extension vscodevim.vim  
+
 
 # Go
 brew install golang
