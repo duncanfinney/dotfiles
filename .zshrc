@@ -93,8 +93,6 @@ export SHELL=/usr/local/bin/zsh
 
 export KEYTIMEOUT=1
 
-alias vim=nvim
-
 PATH=$PATH:~/go/bin
 function powerline_precmd() {
     PS1="$(~/go/bin/powerline-go -error $? -shell zsh)"
@@ -112,8 +110,6 @@ function install_powerline_precmd() {
 #if [ "$TERM" != "linux" ]; then
 #    install_powerline_precmd
 #fi
-
-eval "$(thefuck --alias)"
 
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
@@ -133,3 +129,4 @@ export KEYTIMEOUT=1
 GOPATH=~/go
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"

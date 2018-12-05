@@ -1,3 +1,5 @@
 alias config="yadm"
 alias f="fuck"
-alias sort="gsort"
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
